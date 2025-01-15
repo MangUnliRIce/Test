@@ -34,3 +34,19 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+
+          # Navigate to your repository
+cd your-repo
+
+# Create the .github/workflows directory if it doesn't exist
+mkdir -p .github/workflows
+
+# Save your workflow file
+echo "Your workflow content here" > .github/workflows/ci.yml
+
+# Add, commit, and push the changes
+git add .github/workflows/ci.yml
+git commit -m "Add CI workflow"
+git push origin main
+
