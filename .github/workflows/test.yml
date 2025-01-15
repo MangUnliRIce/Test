@@ -37,7 +37,7 @@ jobs:
 
       # Navigate to the correct directory
       - name: Navigate to the correct directory
-        run: cd .github/workflows/package.json
+        run: cd path/to/your/directory
 
       # Install dependencies
       - name: Install dependencies
